@@ -13,9 +13,10 @@ The function expects ```str``` to point to a string, ```replaced``` represents t
 the replaced string. For example, if the ```str``` is ```helllo```, the function will store
 ```hel3o``` in ```replaced```.
 
-1. Assume input is no longer than 1000 charactesrs.
-2. The ```replace``` function should use pointer arithmetic (instead of array subscripting). In other words, eliminate the loop index variables and all of the [] operator in the function. 
-3. To read a line of text, use the ```read_line``` function (the pointer version) in the lecture notes.
+1. Name the program ```repeated_chars.c```
+2. Assume input is no longer than 1000 charactesrs.
+3. The ```replace``` function should use pointer arithmetic (instead of array subscripting). In other words, eliminate the loop index variables and all of the [] operator in the function. 
+4. To read a line of text, use the ```read_line``` function (the pointer version) in the lecture notes.
 
 ## read_line function
 ```
